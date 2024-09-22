@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main .box{
+    height: 25vh;
+    width: 100%;
+background-color: rgb(255, 255, 255);
+
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    font-size:smaller;
+    
+    
+}
+nav button{
+    position: relative;
+    background-color:rgb(30, 82, 75);
+    color: rgb(255, 255, 255);
+}
+.box{
+   align-items: center;
+   
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+  
+  
+}
+.boxx{
+    align-items: center;
+   height: 70px;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+  
+
+}
+.bot{
+    background-color: rgb(30, 82, 76);
+    height: 7vh;
+    width: 100%;
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  
+
+}
+.ico{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+
+
+
+}
+.ID{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 3px;
+   
+    
+}
+.password{
+    justify-content:center ;
+    display: flex;
+    position: relative;
+    
+
+align-items: center;
+}
+.captcha{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+.cap{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+}
+.ca{
+    display: flex;
+    justify-content: center;
+    
+}
+.signin{
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.con{
+ background-color: rgb(30, 82, 75);
+ color: rgb(255, 255, 255);
+ justify-content: space-evenly;
+ align-items: center;
+ display: flex;
+}
+.forget{
+    display: flex;
+justify-content: center;
+}
